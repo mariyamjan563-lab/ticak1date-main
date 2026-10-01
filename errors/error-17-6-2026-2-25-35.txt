@@ -1,0 +1,8 @@
+[ERROR] [17/6/2026 2:25:35] setup: DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (C:\Users\dfg\Downloads\Compressed\TICKET BOT BY P4K WARIS\tikck bot\node_modules\discord.js\node_modules\@discordjs\rest\dist\index.js:727:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async BurstHandler.runRequest (C:\Users\dfg\Downloads\Compressed\TICKET BOT BY P4K WARIS\tikck bot\node_modules\discord.js\node_modules\@discordjs\rest\dist\index.js:831:23)
+    at async _REST.request (C:\Users\dfg\Downloads\Compressed\TICKET BOT BY P4K WARIS\tikck bot\node_modules\discord.js\node_modules\@discordjs\rest\dist\index.js:1272:22)
+    at async ChatInputCommandInteraction.reply (C:\Users\dfg\Downloads\Compressed\TICKET BOT BY P4K WARIS\tikck bot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:194:22)
+    at async Object.execute (C:\Users\dfg\Downloads\Compressed\TICKET BOT BY P4K WARIS\tikck bot\commands\ticket.js:58:9)
+    at async Object.execute (C:\Users\dfg\Downloads\Compressed\TICKET BOT BY P4K WARIS\tikck bot\events\interactionCreate.js:15:13)
